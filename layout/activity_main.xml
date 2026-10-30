@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#2196F3"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout16"
+        android:layout_width="374dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="97dp"
+            android:layout_height="122dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/pdi_j30idze2slsepjd7wiaus6uzjosfwfmxzalyv2fjy_q2dzvntng0ky62y_hh8ftnbvg577yvwdxmutnualfzaeeg0hvzs2tt_gggswjx9dnl9qvx3qmjfdrup7wzrdccexdmjdaeu_qn_vgvxjqbrfzfry3vxj6n8ypppbk" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="82dp"
+            android:layout_height="122dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/sofx8bi_rtyk1vnw3jsoz_wjplcm_2gdrjqgo_zsu2lt7bz8cn20mfbzoeiphaame23lspvm6oufku3tujbvmk0ykedrbfpsi4myqx47mknjpf7vzuhmizufnvxljlegjukusxrsucmunpqm4zaanjh4pkwiayqwotml_crjivzfqjvbypnszob_7trd3x43" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="93dp"
+            android:layout_height="121dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/wk1jjw6cdzrgyejl3q8quphg1qzx1n8lntm9yh00pwedeskpxhaaorcrjvcxmcpu6pvi_izwpbil5lvxfdu4yge6hia7z_ewezzkve_riyxj_ifqyhqlqj5oznljyxcqdofmsxxtchmnxqaocw9uaursmwjpoksshxv545wkfz98zcvwjmbuzirejtsz2zom" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="89dp"
+            android:layout_height="122dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/indir__1_" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout15"
+        android:layout_width="358dp"
+        android:layout_height="247dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#ffffff"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout16">
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ad Soyad"
+            android:inputType="text"
+            tools:layout_editor_absoluteX="-157dp"
+            tools:layout_editor_absoluteY="415dp" />
+
+        <EditText
+            android:id="@+id/editTextText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="E-posta Adresi"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText4"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:ems="10"
+            android:hint="Yaş"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="319dp"
+            android:layout_height="36dp"
+            android:backgroundTint="#368E59"
+            android:text="Kayıt ol"
+            android:textColorLink="#4CAF50" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_lyout16"
+        android:layout_width="358dp"
+        android:layout_height="247dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FFFFFF"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout15">
+
+        <EditText
+            android:id="@+id/editTextText5"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:ems="10"
+            android:hint="Kullanıcı Adı"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:ems="10"
+            android:hint="Şifre"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="319dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#3275A9"
+            android:text="Giriş Yap" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="312dp"
+            android:layout_height="43dp"
+            android:background="#F8F8F7"
+            android:backgroundTint="#FFFFFF"
+            android:text="                           ŞİFREMİ UNUTTUM?"
+            android:textColor="#2196F3"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</androidx.constraintlayout.widget.ConstraintLayout>
